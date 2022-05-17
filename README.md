@@ -41,7 +41,7 @@ F) Adiós
 *
 
 # Agradecimientos
-Todo el equipo de Código Facilito, por sus enseñanzas y compromiso. Estoy segura de que revisaré a fondo mis clases. 
-A nuestros compañexs de grupo del Bootcamp, en especial a @LuisRalo96 que con base en el código que nos compartió tuve inspiración y apoyo para levantar el proyecto final que entrego.
+- Todo el equipo de Código Facilito, por sus enseñanzas y compromiso. Estoy segura de que revisaré a fondo mis clases. 
+- A nuestros compañexs de grupo del Bootcamp, en especial a @LuisRalo96 que con base en el código que nos compartió tuve inspiración y apoyo para levantar el proyecto final que entrego.
 
 
