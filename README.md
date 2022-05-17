@@ -1,4 +1,4 @@
-# ArchiGenome, versión alfa minus  
+# ArchiGenome, archivero de genomas virales *versión alfa minus* 
 Diana Mendoza
 ##  Acerca de ##
 Mi proyecto es una aplicación en terminal para manejar y visualizar archivos de secuencias virales, en pocas palabras es un archivero de genomas virales 
