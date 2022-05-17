@@ -8,7 +8,11 @@ Mi proyecto es una aplicación en terminal para manejar y visualizar archivos de
 
 ## Ejecutar ##
 En tu terminal ejecuta la siguiente línea (recuerda tener instalado python3) y si estás en Windows, hacerlo desde tu Powersheel activando tu Ubuntu 
-<pre><code> python3 menugen_v2.1.py <pre><code>
+<pre><code> 
+python3 menugen_v2.1.py 
+<pre><code>
+
+## Interfaz de Terminal ##
 
 En automático se desplegarán las siguientes opciones:
 ¿Qué secuencia quieres conocer?
