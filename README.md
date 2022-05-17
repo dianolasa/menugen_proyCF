@@ -22,7 +22,7 @@ C) Leer secuencia -manual
 D) Eliminar secuencia
 E) Limpiar pantalla
 F) Adiós
-<p><code>
+
 ```
 ## Opciones del menú
 *A) Dime cuáles tienes : te enlista las secuencias que hay en el sistema
