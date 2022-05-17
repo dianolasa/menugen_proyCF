@@ -1,5 +1,4 @@
-# ArchiGenome, archivero de genomas virales *versión alfa minus* 
-Diana Mendoza
+# ArchiGenome, archivero de genomas virales *versión alfa minus* </p> Diana Mendoza
 ##  Acerca de ##
 Mi proyecto es una aplicación en terminal para manejar y visualizar archivos de secuencias virales, en pocas palabras es un archivero de genomas virales 
 La versión **menugen_v2.py** es la más estable
@@ -10,12 +9,14 @@ Se trata de un menú que permite realizar algunas actividades de gestión de arc
 * Permite la eliminación de archivos
 
 ## Ejecutar ##
-En tu terminal ejecuta la siguiente línea (recuerda tener instalado python3) y si estás en Windows, hacerlo desde tu Powersheel activando tu Ubuntu 
-``python3 menugen_v2.1.py ``
+En tu terminal ejecuta la siguiente línea (recuerda tener instalado python3) y si estás en Windows, hacerlo desde tu Powersheel activando tu Ubuntu.</p>
+
+``python3 menugen_v2.1.py ``  </p>
+``python3 menugen_v2.py ``
 
 ## Interfaz de Terminal ##
 
-En automático se desplegarán las siguientes opciones:
+En automático se desplegarán las siguientes opciones (*versión v2.1*):
 ```
 ¿Qué secuencia quieres conocer?
 A) Dime cuáles tienes 
