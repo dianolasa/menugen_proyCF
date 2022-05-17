@@ -1,7 +1,7 @@
-# menugen_proyCF versión alfa minus  ## Diana Mendoza 
-
-##  Archivero viral ##
-Mi proyecto es una aplicación en terminal para manejar y visualizar archivos de secuencias virales. 
+# ArchiGenome, versión alfa minus  
+Diana Mendoza
+##  Acerca de ##
+Mi proyecto es una aplicación en terminal para manejar y visualizar archivos de secuencias virales, en pocas palabras es un archivero de genomas virales 
 ### Funcionalidades ###
 Se trata de un menú que permite realizar algunas actividades de gestión de archivos. La particularidad es, que se utilizan secuencias de genes virales, obtenidos del GenBank 
 * Enlistar documentos de archivos de secuencias virales en .txt
