@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from re import A
+
 
 # Ubica el directorio de trabajo de la aplicación
 directorio_trabajo = Path.cwd()
