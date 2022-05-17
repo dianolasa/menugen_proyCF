@@ -14,8 +14,8 @@ En tu terminal ejecuta la siguiente línea (recuerda tener instalado python3) y 
 
 ``python3 menugen_v2.1.py ``  </p> 
 ó </p> 
-``python3 menugen_v2.py ``
-**Importante: almacenar las secuencias virales en archivos .txt (convertir a partir del archivo fasta tradicional .fa) en la carpeta de trabajo en donde se encuentre el código.
+``python3 menugen_v2.py `` </p>
+**Importante: almacenar las secuencias virales en archivos .txt (convertir a partir del archivo fasta tradicional .fa) en la carpeta de trabajo en donde se encuentre el código**
 
 ## Interfaz de Terminal ##
 
