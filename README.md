@@ -14,7 +14,7 @@ En tu terminal ejecuta la siguiente línea (recuerda tener instalado python3) y 
 ## Interfaz de Terminal ##
 
 En automático se desplegarán las siguientes opciones:
-``
+```
 ¿Qué secuencia quieres conocer?
 A) Dime cuáles tienes 
 B) Leer secuencia - automático 
@@ -22,7 +22,9 @@ C) Leer secuencia -manual
 D) Eliminar secuencia
 E) Limpiar pantalla
 F) Adiós
-``
+<p><code>
+```
+## Opciones del menú
 *A) Dime cuáles tienes : te enlista las secuencias que hay en el sistema
 B) Leer secuencia - automático : te muestra 2 secuencias (adenovirus de perro y adenovirus de pollo) *revisar áreas de oportunidad
 C) Leer secuencia -manual: te permite abrir secuencias en formato .txt (Virus_Canino.txt y Virus_pollo.txt) **ojo: debes ingresar [Nombre de archivo].txt**
