@@ -28,7 +28,7 @@ F) Adiós
 ## Opciones del menú
 * *A) Dime cuáles tienes* : te enlista las secuencias que hay en el sistema
 * *B) Leer secuencia - automático* : te muestra 2 secuencias (adenovirus de perro y adenovirus de pollo) *revisar áreas de oportunidad
-* *C) Leer secuencia -manual*: te permite abrir secuencias en formato .txt (Virus_Canino.txt y Virus_pollo.txt) **ojo: debes ingresar [Nombre de archivo].txt**
+* *C) Leer secuencia -manual*: te permite abrir secuencias en formato .txt (Virus_canino.txt y Virus_pollo.txt) **ojo: debes ingresar [Nombre de archivo].txt**
 * *D) Eliminar secuencia*: te pide el nombre exacto del archivo a eliminar 
 * *E) Limpiar pantalla*: te ayuda a despejar tu espacio de trabajo, así como a mostrarte denuevo las opciones del menú principal
 * *F) Adiós*: te da salida de la aplicación
