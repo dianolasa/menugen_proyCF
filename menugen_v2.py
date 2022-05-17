@@ -21,22 +21,19 @@ def validacion_opciones():
             entrada = str (entrada)
             return entrada;
         except ValueError:
-            print ("La entrada es incorrecta; escribe una letra")
+            print ("La entrada es incorrecta; escribe una letra que esté en el lista")
 
-# Muestra los documentos existentes con extensión .txt
+# Muestra las secuencias existentes, con extensión .txt
 def listar_secuencias():
     for secuencia in ruta_actual.iterdir():
     
         if secuencia.is_file() and  secuencia.suffix == '.txt':
             print(secuencia.name)
 
-""" 
-Muestra el contenido del secuencia .txt solitado, 
-además de validar que el usuario haya ingresado el nombre de un documento existente
-"""
+#Lee la lectura de la secuencia de interés
 def leer_secuencias():
     while True:
-        nombre = input('¿Qué secuencia quieres conocer? (Nombre + .txt): ')
+        nombre = input('¿Qué secuencia quieres conocer? indica (Nombre + .txt): ')
         ruta_documento = directorio_trabajo / nombre
         if ruta_documento.exists():
             with open(ruta_documento) as documento:
@@ -46,40 +43,32 @@ def leer_secuencias():
         else:
             print('El documento no existe')
 
-"""Elimina el documento solicitado,  
-además de validar que el usuario haya ingresado el nombre de un documento existente
-"""
-def eliminar_documento():
+#Elimina el archivo de secuencia deseado
+def eliminar_secuencia():
     while True:
-        nombre = input('¿Qué archivo quiere eliminar? (Nombre + .txt): ')
-        ruta_documento = directorio_actual / nombre
-        if ruta_documento.exists():
+        nombre = input('¿Qué secuencia quieres eliminar? (Nombre + .txt): ')
+        ruta_secuencia = ruta_actual / nombre
+        if ruta_secuencia.exists():
             os.remove(ruta_documento)
             break
         else:
             print('El documento no existe')
 
-"""
-Valida si el usuario quiere continuar con la consulta, 
-si el usuario desea continuar, la pantalla se limpia en automático,
-de lo contrario termina la ejecución del programa
-"""
+#Limpia la pantalla para visualizar secuencias
 def limpiar_pantalla():
     while True:
-        continuar = (input('¿Quiere hacer otra consulta ? Si / No: '))
-        if continuar.upper() == "SI":
+        continuar = (input('¿Quiere revisar otra secuencia ? S / N: '))
+        if continuar.upper() == "S":
             os.system('clear')
             break
-        elif continuar.upper() == "NO":
-            print('Fin de la consulta')
+        elif continuar.upper() == "N":
+            print('Adiós')
             exit()
 
 menu()
 eleccion = validacion_opciones()
 
-"""
-Muestra el menú en un ciclo constante hasta que el usuario decida terminar la consulta
-"""
+#Ciclo del menú
 while eleccion:
     if eleccion == 'A':
         listar_secuencias()
