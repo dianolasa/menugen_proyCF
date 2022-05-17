@@ -15,7 +15,7 @@ En tu terminal ejecuta la siguiente línea (recuerda tener instalado python3) y 
 ``python3 menugen_v2.1.py ``  </p> 
 ó </p> 
 ``python3 menugen_v2.py `` </p>
-**Importante: almacenar las secuencias virales en archivos .txt (convertir a partir del archivo fasta tradicional .fa) en la carpeta de trabajo en donde se encuentre el código**
+**Importante:** almacenar las secuencias virales en archivos .txt (convertir a partir del archivo fasta tradicional ``.fa``) en la carpeta de trabajo en donde se encuentre el código
 
 ## Interfaz de Terminal ##
 
@@ -33,7 +33,7 @@ F) Adiós
 ## Opciones del menú
 * *A) Dime cuáles tienes* : te enlista las secuencias que hay en el sistema
 * *B) Leer secuencia - automático* : te muestra 2 secuencias (adenovirus de perro y adenovirus de pollo) *revisar áreas de oportunidad
-* *C) Leer secuencia -manual*: te permite abrir secuencias en formato .txt (Virus_canino.txt y Virus_pollo.txt) **ojo: debes ingresar [Nombre de archivo].txt**
+* *C) Leer secuencia -manual*: te permite abrir secuencias en formato ``.txt`` (``Virus_canino.txt`` y ``Virus_pollo.txt``) **ojo: debes ingresar [Nombre de archivo].txt**
 * *D) Eliminar secuencia*: te pide el nombre exacto del archivo a eliminar 
 * *E) Limpiar pantalla*: te ayuda a despejar tu espacio de trabajo, así como a mostrarte denuevo las opciones del menú principal
 * *F) Adiós*: te da salida de la aplicación
@@ -42,7 +42,7 @@ F) Adiós
 
 * Tuve dificultad para poder darle stop al despliegue de resultados por cada opción, lo que se traduce en que se despliegan en loop interminable.
 * Quise adaptar una opción automática de despliegue, metiendo un listado dentor de una de las opciones, sin mebargo, me parece que aunque tengo definidas las funciones, no lo pude llamar del todo bien en el método.
-* Esta aplicación en terminal es dinámica y como perspectivas se me ocurre que pueda ser ligad al ftp o api del NCBI para descargar fragmentos de genes de interés (para este proyecto, no se descragó lasecuencia completa del virus, solo una parte de un gen de adenovirus
+* Esta aplicación en terminal es dinámica y como perspectivas se me ocurre que pueda ser ligar al ftp o api del NCBI para descargar fragmentos de genes de interés (para este proyecto, no se descargó lasecuencia completa del virus, solo una parte de un gen de adenovirus) y automatizar la conversión de ``.fa`` a ``.txt``
 
 
 # Agradecimientos
